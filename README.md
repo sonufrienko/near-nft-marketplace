@@ -1,2 +1,1 @@
-# near-nft-marketplace
-Marketplace for NEAR Protocol NFTs
+# Marketplace for NEAR Protocol NFTs
