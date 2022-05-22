@@ -1,17 +1,4 @@
-# NFT Contract
-
-## Build
-
-```sh
-RUSTFLAGS='-C link-arg=-s' cargo build --target wasm32-unknown-unknown --release
-```
-
-## Deploy
-
-```sh
-export CONTRACT=nft.sergiio.testnet
-near deploy --wasmFile target/wasm32-unknown-unknown/release/nft.wasm --accountId $CONTRACT
-```
+# Non-fungible Token (NFT)
 
 ## API
 
