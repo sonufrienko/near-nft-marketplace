@@ -1,5 +1,7 @@
 # Fungible Token (FT)
 
+[Fungible Token Standard](https://nomicon.io/Standards/Tokens/FungibleToken/)
+
 ## API
 
 - Init contract

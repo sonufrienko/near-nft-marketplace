@@ -1,5 +1,7 @@
 # Non-fungible Token (NFT)
 
+[Non-Fungible Token Standard](https://nomicon.io/Standards/Tokens/NonFungibleToken/)
+
 ## API
 
 - Init contract
