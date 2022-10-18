@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/sonufrienko/near-nft-marketplace/compare/v1.0.4...v1.1.0) (2022-10-18)
+
+
+### Bug Fixes
+
+* Fixed search ([8bb00e1](https://github.com/sonufrienko/near-nft-marketplace/commit/8bb00e19ca3ef34a104df8c14236424bc853d4e4))
+
+
+### Features
+
+* New Page List ([c968e60](https://github.com/sonufrienko/near-nft-marketplace/commit/c968e6078f111fa408ddb0bbe139592cfc2401bd))
+* **search:** Add FullText Search ([44c0548](https://github.com/sonufrienko/near-nft-marketplace/commit/44c0548532659a3d039f5b607a88c125516e9dc9))
+
+
+
 ## [1.0.4](https://github.com/sonufrienko/near-nft-marketplace/compare/v1.0.3...v1.0.4) (2022-10-18)
 
 
