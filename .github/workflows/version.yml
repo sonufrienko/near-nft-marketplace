@@ -25,4 +25,4 @@ jobs:
           skip-on-empty: "true"
           skip-version-file: "false"
           skip-commit: "false"
-          git-branch: "main"
+          # git-branch: "main"
