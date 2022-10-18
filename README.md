@@ -1,3 +1,3 @@
 # Marketplace for NEAR Protocol NFTs
 
-New release
+New release 1
