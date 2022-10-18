@@ -1,5 +1,5 @@
 [workspace]
-members = ["non-fungible-token", "fungible-token"]
+members = ["non-fungible-token", "fungible-token", "marketplace"]
 
 [profile.release]
 codegen-units = 1
