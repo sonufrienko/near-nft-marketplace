@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/sonufrienko/near-nft-marketplace/compare/v1.0.3...v1.0.4) (2022-10-18)
+
+
+### Bug Fixes
+
+* add features to Readme ([94e3626](https://github.com/sonufrienko/near-nft-marketplace/commit/94e362648c295e13106e74efa7ca918d48ed919c))
+
+
+
 ## [1.0.3](https://github.com/sonufrienko/near-nft-marketplace/compare/v1.0.2...v1.0.3) (2022-10-18)
 
 
