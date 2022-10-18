@@ -13,5 +13,3 @@ FT
 https://github.com/ParasHQ/paras-token-contract
 
 ## API
-
-Changes
