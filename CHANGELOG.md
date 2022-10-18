@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/sonufrienko/near-nft-marketplace/compare/v1.1.0...v1.2.0) (2022-10-18)
+
+
+### Features
+
+* **Pipeline:** Added Release ([259e197](https://github.com/sonufrienko/near-nft-marketplace/commit/259e197dddf3104d5c496efe1d42affcdb0901ac))
+
+
+
 # [1.1.0](https://github.com/sonufrienko/near-nft-marketplace/compare/v1.0.4...v1.1.0) (2022-10-18)
 
 
