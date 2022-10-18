@@ -22,9 +22,7 @@ jobs:
           git-message: "chore(release): {version}"
           output-file: "CHANGELOG.md"
           release-count: "0"
-          # version-file: './my_custom_version_file.json' // or .yml, .yaml, .toml
-          # version-path: 'path.to.version'
           skip-on-empty: "false"
           skip-version-file: "false"
           skip-commit: "false"
-          git-branch: "main"
+          # git-branch: "main"
