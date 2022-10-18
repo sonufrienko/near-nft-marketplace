@@ -15,14 +15,24 @@ jobs:
         with:
           node-version: 16
 
-      - name: Conventional Changelog Action
+      - name: Changelog
+        id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.github_token }}
           git-message: "chore(release): {version}"
           output-file: "CHANGELOG.md"
           release-count: "0"
           skip-on-empty: "true"
           skip-version-file: "false"
           skip-commit: "false"
-          # git-branch: "main"
+
+      - name: Release
+        uses: actions/create-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
